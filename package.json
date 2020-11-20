@@ -11,5 +11,17 @@
   },
   "keywords": [],
   "author": "",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liulinboyi/toybrowser.git"
+  },
+  "bugs": {
+    "url": "https://github.com/liulinboyi/toybrowser/issues"
+  },
+  "homepage": "https://github.com/liulinboyi/toybrowser#readme",
+  "devDependencies": {
+    "css": "^3.0.0",
+    "images": "^3.2.3"
+  }
 }

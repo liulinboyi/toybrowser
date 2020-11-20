@@ -11,20 +11,26 @@
         #container #myid {
             width: 200px;
             height: 100px;
-            align-self: center;
             background-color: rgb(255, 0, 0);
         }
 
-        #container .c2 {
+        .outer {
             flex: 1;
+            background-color: rgb(0, 255, 0);
+        }
+
+        .outer .c2 {
             background-color: rgb(225, 88, 230);
         }
     </style>
 </head>
 <body>
+    <img />
     <div id="container">
         <div id="myid"></div>
-        <div class="c1 c2"></div>
+        <div class="outer">
+            <div class="c1 c2"></div>
+        </div>
     </div>
 </body>
 </html>

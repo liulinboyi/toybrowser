@@ -1,0 +1,172 @@
+{
+    "type": "document",
+    "children": [{
+        "type": "element",
+        "children": [{
+            "type": "text",
+            "content": "\r\n"
+        }, {
+            "type": "element",
+            "children": [{
+                "type": "text",
+                "content": "\r\n    "
+            }, {
+                "type": "element",
+                "children": [{
+                    "type": "text",
+                    "content": "\r\n        #container {\r\n            width: 500px;\r\n            height: 300px;\r\n            display: flex;\r\n            background-color: rgb(255, 255, 255);\r\n        }\r\n\r\n        #container #myid {\r\n            width: 200px;\r\n            height: 100px;\r\n            align-self: center;\r\n            background-color: rgb(255, 0, 0);\r\n        }\r\n\r\n        #container .c2 {\r\n            flex: 1;\r\n            background-color: rgb(225, 88, 230);\r\n        }\r\n    "
+                }],
+                "attributes": [],
+                "tagName": "style",
+                "computedStyle": {},
+                "style": {}
+            }, {
+                "type": "text",
+                "content": "\r\n"
+            }],
+            "attributes": [],
+            "tagName": "head",
+            "computedStyle": {},
+            "style": {}
+        }, {
+            "type": "text",
+            "content": "\r\n"
+        }, {
+            "type": "element",
+            "children": [{
+                "type": "text",
+                "content": "\r\n    "
+            }, {
+                "type": "element",
+                "children": [{
+                    "type": "text",
+                    "content": "\r\n        "
+                }, {
+                    "type": "element",
+                    "children": [],
+                    "attributes": [{
+                        "name": "id",
+                        "value": "myid"
+                    }],
+                    "tagName": "div",
+                    "computedStyle": {
+                        "width": {
+                            "value": "200px",
+                            "specificity": [0, 2, 0, 0]
+                        },
+                        "height": {
+                            "value": "100px",
+                            "specificity": "[Circular specificity]"
+                        },
+                        "align-self": {
+                            "value": "center",
+                            "specificity": "[Circular specificity]"
+                        },
+                        "background-color": {
+                            "value": "rgb(255, 0, 0)",
+                            "specificity": "[Circular specificity]"
+                        }
+                    },
+                    "style": {
+                        "width": 200,
+                        "height": 100,
+                        "align-self": "center",
+                        "background-color": "rgb(255, 0, 0)",
+                        "left": 0,
+                        "right": 200,
+                        "top": 100,
+                        "bottom": 200
+                    }
+                }, {
+                    "type": "text",
+                    "content": "\r\n        "
+                }, {
+                    "type": "element",
+                    "children": [],
+                    "attributes": [{
+                        "name": "class",
+                        "value": "c1 c2"
+                    }],
+                    "tagName": "div",
+                    "computedStyle": {
+                        "flex": {
+                            "value": "1",
+                            "specificity": [0, 1, 1, 0]
+                        },
+                        "background-color": {
+                            "value": "rgb(225, 88, 230)",
+                            "specificity": "[Circular specificity]"
+                        }
+                    },
+                    "style": {
+                        "flex": 1,
+                        "background-color": "rgb(225, 88, 230)",
+                        "width": 300,
+                        "left": 200,
+                        "right": 500,
+                        "top": 0,
+                        "bottom": 300,
+                        "height": 300
+                    }
+                }, {
+                    "type": "text",
+                    "content": "\r\n    "
+                }],
+                "attributes": [{
+                    "name": "id",
+                    "value": "container"
+                }],
+                "tagName": "div",
+                "computedStyle": {
+                    "width": {
+                        "value": "500px",
+                        "specificity": [0, 1, 0, 0]
+                    },
+                    "height": {
+                        "value": "300px",
+                        "specificity": "[Circular specificity]"
+                    },
+                    "display": {
+                        "value": "flex",
+                        "specificity": "[Circular specificity]"
+                    },
+                    "background-color": {
+                        "value": "rgb(255, 255, 255)",
+                        "specificity": "[Circular specificity]"
+                    }
+                },
+                "style": {
+                    "width": 500,
+                    "height": 300,
+                    "display": "flex",
+                    "background-color": "rgb(255, 255, 255)",
+                    "flexDirection": "row",
+                    "alignItems": "stretch",
+                    "justifyContent": "flex-start",
+                    "flexWrap": "nowrap",
+                    "alignContent": "center"
+                }
+            }, {
+                "type": "text",
+                "content": "\r\n"
+            }],
+            "attributes": [],
+            "tagName": "body",
+            "computedStyle": {},
+            "style": {}
+        }, {
+            "type": "text",
+            "content": "\r\n"
+        }],
+        "attributes": [{
+            "name": "lang",
+            "value": "en"
+        }, {
+            "name": "name",
+            "value": "xiaoliu"
+        }],
+        "tagName": "html",
+        "computedStyle": {},
+        "style": {}
+    }]
+}
