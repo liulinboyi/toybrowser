@@ -289,6 +289,6 @@ void async function () {
     // console.log(JSON.stringify(dom, null, '    '))
     let viewport = images(800, 600)
     render(viewport, dom)
-    viewport.save('viewport.jpg')
+    viewport.save('viewport.png')
 
 }()
